@@ -9,8 +9,8 @@ COIN_PATH='/usr/local/bin/'
 COIN_TGZ=`curl -s https://api.github.com/repos/Modden-Project/MDDN/releases/latest | grep "browser_download_url.*Linux\\.zip" | cut -d : -f 2,3 | tr -d \" | xargs`
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='modden'
-COIN_PORT=36880
-RPC_PORT=36801
+COIN_PORT=8668
+RPC_PORT=8669
 
 BLUE="\033[0;34m"
 YELLOW="\033[0;33m"

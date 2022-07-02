@@ -239,7 +239,7 @@ public:
         pchMessageStart[1] = 0x6f;
         pchMessageStart[2] = 0x69;
         pchMessageStart[3] = 0x7a;
-        nDefaultPort = 36880;
+        nDefaultPort = 8668;
 
         vSeeds.push_back(CDNSSeedData("tseeder", "185.207.104.251"));
         vSeeds.push_back(CDNSSeedData("tseed1", "185.194.141.200"));
