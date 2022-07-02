@@ -10,7 +10,7 @@ MDDN wallet repository
 • Block Time: 60 Seconds    
 • Maturity: 100 Confirmations  
 • Prefix: MDDN adresses start with the lower case letter "b"  
-• Ports: 36880 (p2p) / 36801 (rpc)
+• Ports: 8668 (p2p) / 8669 (rpc)
 
 • Explorer https://explorer.moddencoin.net/
 
