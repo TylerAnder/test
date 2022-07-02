@@ -52,7 +52,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "the cat is on the table";
+    const char* pszTimestamp = "Modden July 2022";
     const CScript genesisOutputScript = CScript() << ParseHex("04e209a299d9b1483b42c1e827975054b276188cb1b86943ebf9673a955b4bfb466d6ef5167539deac570ebb9df4eb5b256a9dd2a5a9bd44399e16d9bf6fae46c2") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -69,11 +69,11 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
  */
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256S("0x0"));
+    (0, uint256S("0x00000ef20371800a04939c0eea309ba510c69c2114496de3796215ddf6d30a54"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1656792444, // * UNIX timestamp of last checkpoint block
+    1656793447, // * UNIX timestamp of last checkpoint block
     0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the UpdateTip debug.log lines)
     0.000        // * estimated number of transactions per day after checkpoint
@@ -81,21 +81,21 @@ static const Checkpoints::CCheckpointData data = {
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of
-    (0, uint256S("0x0"));
+    (0, uint256S("0x000003c75888e7183cab1f252acccf35778af65199bfbbff4700377c21669040"));
 
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1656792444,
+    1656793445,
     0,
     0.000
     };
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
-    boost::assign::map_list_of(0, uint256S("0x0"));
+    boost::assign::map_list_of(0, uint256S("0x000008beabf48112d3cdeec6fa076f051656ea5be0d5765370fe429bec04d001"));
 
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1656792444,
+    1656793446,
     0,
     0.000
     };
@@ -107,11 +107,11 @@ public:
     {
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
-/*
+/**
         // // This is used inorder to mine the genesis block. Once found, we can use the nonce and block hash found to create a valid genesis block
         // /////////////////////////////////////////////////////////////////
 
-         uint32_t nGenesisTime = 1631025514; // Wed May 05 2021 14:14:51 GMT+0000
+         uint32_t nGenesisTime = 1656793447;
          arith_uint256 test;
          bool fNegative;
          bool fOverflow;
@@ -153,10 +153,10 @@ public:
 */
         // /////////////////////////////////////////////////////////////////
 
-        genesis = CreateGenesisBlock(1631025514, 269949, 0x1e0ffff0, 1, 0 * COIN);
+        genesis = CreateGenesisBlock(1656793447, 947130, 0x1e0ffff0, 1, 0 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000ceb5140e18a08bf66aee9d07fb5982c2c2918175898c25d04fbc1223687"));
-        assert(genesis.hashMerkleRoot == uint256S("0xfac6d0e33fc949953e699770c09a42d659c320ae05076b4d24913f94b2121fb0"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000ef20371800a04939c0eea309ba510c69c2114496de3796215ddf6d30a54"));
+        assert(genesis.hashMerkleRoot == uint256S("0xf6013c5cd370397fbdc06890e4afbc4614a651b432f7d7b6dfb4f8afd15ed5e2"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   
@@ -180,7 +180,7 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "04c80e62aabe7386f91914f69e3edfccb120dfc04218b74747822f01b412899957ebec4b8787aa26a6efc986285a65cde76412b93f9ecd72ad94d90a5ea8559510";
+        consensus.strSporkPubKey = "04c7bbc1a9eb80acc54339267764913eaa54a39d23c46aafd4393c69600644ca3520fa7e5fc231666e95c549b2bd5491b7d8638ce46508be060f2f28b94d31a8d5";
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
@@ -285,10 +285,10 @@ public:
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
 
-        genesis = CreateGenesisBlock(1454124731, 2402015, 0x1e0ffff0, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1656793445, 18745, 0x1e0ffff0, 1, 0 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        //assert(consensus.hashGenesisBlock == uint256S("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-        //assert(genesis.hashMerkleRoot == uint256S("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000003c75888e7183cab1f252acccf35778af65199bfbbff4700377c21669040"));
+        assert(genesis.hashMerkleRoot == uint256S("0xf6013c5cd370397fbdc06890e4afbc4614a651b432f7d7b6dfb4f8afd15ed5e2"));
 
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // modden starting difficulty is 1 / 2^12
@@ -312,7 +312,7 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "04E88BB455E2A04E65FCC41D88CD367E9CCE1F5A409BE94D8C2B4B35D223DED9C8E2F4E061349BA3A38839282508066B6DC4DB72DD432AC4067991E6BF20176127";
+        consensus.strSporkPubKey = "046b99835df70c4638bde462d07be1bc91432379ba7de3eb5df53044d2a3aa4ba7f7cc9fbe647d4a113071936dc409950bd5b491e017f460633ffbba9ddcdfd248";
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
@@ -369,24 +369,19 @@ public:
          * a large 4-byte int at any alignment.
          */
 
-        pchMessageStart[0] = 0x45;
-        pchMessageStart[1] = 0x76;
-        pchMessageStart[2] = 0x65;
-        pchMessageStart[3] = 0xba;
+        pchMessageStart[0] = 0xb7;
+        pchMessageStart[1] = 0x8b;
+        pchMessageStart[2] = 0x4c;
+        pchMessageStart[3] = 0xd3;
         nDefaultPort = __PORT_TESTNET__;
 
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.push_back(CDNSSeedData("tseed3", "tseed3.moddencoin.net"));
-        vSeeds.push_back(CDNSSeedData("tseed4", "tseed4.moddencoin.net"));
-        vSeeds.push_back(CDNSSeedData("tseed5", "tseed5.moddencoin.net"));
-        vSeeds.push_back(CDNSSeedData("tseed6", "tseed6.moddencoin.net"));
-        vSeeds.push_back(CDNSSeedData("tseed7", "tseed7.moddencoin.net"));
-        vSeeds.push_back(CDNSSeedData("tseed8", "tseed8.moddencoin.net"));
+        //vSeeds.push_back(CDNSSeedData("xxx", "xxx"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet modden addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet modden script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65); // Testnet modden addresses start with 'T'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 66);  // Testnet modden script addresses start with 'T'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
         // Testnet modden BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
@@ -416,10 +411,10 @@ public:
         networkID = CBaseChainParams::REGTEST;
         strNetworkID = "regtest";
 
-        genesis = CreateGenesisBlock(1454124731, 2402015, 0x1e0ffff0, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1656793446, 582448, 0x1e0ffff0, 1, 0 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        //assert(consensus.hashGenesisBlock == uint256S("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-        //assert(genesis.hashMerkleRoot == uint256S("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000008beabf48112d3cdeec6fa076f051656ea5be0d5765370fe429bec04d001"));
+        assert(genesis.hashMerkleRoot == uint256S("0xf6013c5cd370397fbdc06890e4afbc4614a651b432f7d7b6dfb4f8afd15ed5e2"));
 
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // modden starting difficulty is 1 / 2^12
@@ -442,11 +437,11 @@ public:
         consensus.nTimeSlotLength = 15;
 
         /* Spork Key for RegTest:
-        WIF private key: 932HEevBSujW2ud7RfB1YF91AFygbBRQj3de3LyaCRqNzKKgWXi
-        private key hex: bd4960dcbd9e7f2223f24e7164ecb6f1fe96fc3a416f5d3a830ba5720c84b8ca
-        Address: yCvUVd72w7xpimf981m114FSFbmAmne7j9
+        WIF private key: 76a91448b65ff035ebf61cfc1a561834150a98a99a129488ac
+        private key hex: cQRrV385J2hd7mYjv4mMrsjpuChi18b7YzM13VtTEA63uJ9T8o72
+        Address: TGbg8VSeNejL343TKURRty7qqtVv6XXS4R
         */
-        consensus.strSporkPubKey = "043969b1b0e6f327de37f297a015d37e2235eaaeeb3933deecd8162c075cee0207b13537618bde640879606001a8136091c62ec272dd0133424a178704e6e75bb7";
+        consensus.strSporkPubKey = "0436364cb6cb35d2af02b07281c2e5434071e887ea77c7aaf8a8d9ef028ba2eef682d1d236fa742962dd679ed081e205d8b521d71c32c73f9400ffcf2b195cc9f6";
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
@@ -497,10 +492,10 @@ public:
          * a large 4-byte int at any alignment.
          */
 
-        pchMessageStart[0] = 0xa1;
-        pchMessageStart[1] = 0xcf;
-        pchMessageStart[2] = 0x7e;
-        pchMessageStart[3] = 0xac;
+        pchMessageStart[0] = 0xb8;
+        pchMessageStart[1] = 0xc2;
+        pchMessageStart[2] = 0x47;
+        pchMessageStart[3] = 0x38;
         nDefaultPort = __PORT_REGTEST__;
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
