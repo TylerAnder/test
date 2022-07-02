@@ -73,10 +73,10 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1626853170, // * UNIX timestamp of last checkpoint block
-    221854,          // * total number of transactions between genesis and last checkpoint
+    1656792444, // * UNIX timestamp of last checkpoint block
+    0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the UpdateTip debug.log lines)
-    3076        // * estimated number of transactions per day after checkpoint
+    0.000        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -85,18 +85,20 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
 
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1740710,
+    1656792444,
     0,
-    250};
+    0.000
+    };
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256S("0x0"));
 
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1454124731,
+    1656792444,
     0,
-    100};
+    0.000
+    };
 
 class CMainParams : public CChainParams
 {
@@ -235,20 +237,25 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x6e;
-        pchMessageStart[1] = 0x6f;
-        pchMessageStart[2] = 0x69;
-        pchMessageStart[3] = 0x7a;
+        pchMessageStart[0] = 0xb6;
+        pchMessageStart[1] = 0xf8;
+        pchMessageStart[2] = 0xe2;
+        pchMessageStart[3] = 0x4d;
         nDefaultPort = 8668;
 
-        vSeeds.push_back(CDNSSeedData("tseeder", "185.207.104.251"));
-        vSeeds.push_back(CDNSSeedData("tseed1", "185.194.141.200"));
-        vSeeds.push_back(CDNSSeedData("tseed2", "5.45.107.126"));
-        vSeeds.push_back(CDNSSeedData("seed3", "188.68.42.79"));
-        vSeeds.push_back(CDNSSeedData("seed4", "5.45.99.114"));
+        vSeeds.push_back(CDNSSeedData("seed01", "seed01.modden.io"));
+        vSeeds.push_back(CDNSSeedData("seed02", "seed02.modden.io"));
+        vSeeds.push_back(CDNSSeedData("seed03", "seed03.modden.io"));
+        vSeeds.push_back(CDNSSeedData("seed04", "seed04.modden.io"));
+        vSeeds.push_back(CDNSSeedData("seed05", "seed05.modden.io"));
+        vSeeds.push_back(CDNSSeedData("seed06", "seed06.modden.io"));
+        vSeeds.push_back(CDNSSeedData("seed07", "seed07.modden.io"));
+        vSeeds.push_back(CDNSSeedData("seed08", "seed08.modden.io"));
+        vSeeds.push_back(CDNSSeedData("seed09", "seed09.modden.io"));
+        vSeeds.push_back(CDNSSeedData("seed10", "seed10.modden.io"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 50); // b
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 51); // B
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 50); // M
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 51); // M
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 231);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
