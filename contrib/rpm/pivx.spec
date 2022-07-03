@@ -243,20 +243,20 @@ done
 
 %if %{_buildqt}
 # qt icons
-install -D -p share/pixmaps/pivx.ico %{buildroot}%{_datadir}/pixmaps/pivx.ico
+install -D -p share/pixmaps/modden.ico %{buildroot}%{_datadir}/pixmaps/modden.ico
 install -p share/pixmaps/nsis-header.bmp %{buildroot}%{_datadir}/pixmaps/
 install -p share/pixmaps/nsis-wizard.bmp %{buildroot}%{_datadir}/pixmaps/
 install -p %{SOURCE100} %{buildroot}%{_datadir}/pixmaps/pivx.svg
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/pivx16.png -w16 -h16
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/pivx32.png -w32 -h32
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/pivx64.png -w64 -h64
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/pivx128.png -w128 -h128
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/pivx256.png -w256 -h256
-%{_bindir}/convert -resize 16x16 %{buildroot}%{_datadir}/pixmaps/pivx256.png %{buildroot}%{_datadir}/pixmaps/pivx16.xpm
-%{_bindir}/convert -resize 32x32 %{buildroot}%{_datadir}/pixmaps/pivx256.png %{buildroot}%{_datadir}/pixmaps/pivx32.xpm
-%{_bindir}/convert -resize 64x64 %{buildroot}%{_datadir}/pixmaps/pivx256.png %{buildroot}%{_datadir}/pixmaps/pivx64.xpm
-%{_bindir}/convert -resize 128x128 %{buildroot}%{_datadir}/pixmaps/pivx256.png %{buildroot}%{_datadir}/pixmaps/pivx128.xpm
-%{_bindir}/convert %{buildroot}%{_datadir}/pixmaps/pivx256.png %{buildroot}%{_datadir}/pixmaps/pivx256.xpm
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/modden16.png -w16 -h16
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/modden32.png -w32 -h32
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/modden64.png -w64 -h64
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/modden128.png -w128 -h128
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/modden256.png -w256 -h256
+%{_bindir}/convert -resize 16x16 %{buildroot}%{_datadir}/pixmaps/modden256.png %{buildroot}%{_datadir}/pixmaps/modden16.xpm
+%{_bindir}/convert -resize 32x32 %{buildroot}%{_datadir}/pixmaps/modden256.png %{buildroot}%{_datadir}/pixmaps/modden32.xpm
+%{_bindir}/convert -resize 64x64 %{buildroot}%{_datadir}/pixmaps/modden256.png %{buildroot}%{_datadir}/pixmaps/modden64.xpm
+%{_bindir}/convert -resize 128x128 %{buildroot}%{_datadir}/pixmaps/modden256.png %{buildroot}%{_datadir}/pixmaps/modden128.xpm
+%{_bindir}/convert %{buildroot}%{_datadir}/pixmaps/modden256.png %{buildroot}%{_datadir}/pixmaps/modden256.xpm
 touch %{buildroot}%{_datadir}/pixmaps/*.png -r %{SOURCE100}
 touch %{buildroot}%{_datadir}/pixmaps/*.xpm -r %{SOURCE100}
 
@@ -272,7 +272,7 @@ Comment[tr]=Bitcoin, eşten eşe kriptografik sanal para birimi
 Exec=pivx-qt %u
 Terminal=false
 Type=Application
-Icon=pivx128
+Icon=modden128
 MimeType=x-scheme-handler/pivx;
 Categories=Office;Finance;
 EOF
