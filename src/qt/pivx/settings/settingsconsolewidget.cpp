@@ -422,13 +422,12 @@ void SettingsConsoleWidget::clear(bool clearHistory)
     QString clsKey = "Ctrl-L";
 #endif
 
-    message(CMD_REPLY, (tr("Welcome to the MDDN RPC console.") + "<br>" +
-                        tr("Use up and down arrows to navigate history, and %1 to clear screen.").arg("<b>"+clsKey+"</b>") + "<br>" +
+    message(CMD_REPLY, (tr("<u>Welcome to the MDDN RPC console.</u>") + "<br>" +
+                        tr("Use <b>up</b> and <b>down</b> arrows to navigate history, and %1 to clear screen.").arg("<b>"+clsKey+"</b>") + "<br>" +
                         tr("Type <b>help</b> for an overview of available commands.") +
                         "<br><span class=\"secwarning\"><br>" +
-                        tr("WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.") +
                         "</span>"),
-            true);
+                        true);
 }
 
 void SettingsConsoleWidget::message(int category, const QString& message, bool html)
@@ -519,22 +518,22 @@ void SettingsConsoleWidget::changeTheme(bool isLightTheme, QString &theme)
     // Set default style sheet
     if (isLightTheme) {
         ui->messagesWidget->document()->setDefaultStyleSheet(
-                "table { color: #707070;  }"
-                "td.time { color: #808080; padding-top: 3px; } "
-                "td.message { color: #707070;font-family: Courier, Courier New, Lucida Console, monospace; font-size: 12px; } " // Todo: Remove fixed font-size
-                "td.cmd-request { color: #006060; } "
-                "td.cmd-error { color: red; } "
-                ".secwarning { color: red; }"
-                "b { color: #707070; } ");
+                "table { color: #767676; }"
+        	"td.time { color: #808080; padding-top: 3px; } "
+        	"td.message { font-family: Courier, Courier New, Lucida Console, monospace; font-size: 12px; } " // Todo: Remove fixed font-size
+       		"td.cmd-request { color: #14C98C; } "
+       		"td.cmd-error { color: #A21163; } "
+        	".secwarning { color: #A21163; }"
+       		"b { color: #14C98C; } ");
     } else {
         ui->messagesWidget->document()->setDefaultStyleSheet(
-                "table { color: #FFFFFF; }"
-                "td.time { color: #808080; padding-top: 3px; } "
-                "td.message { color: #FFFFFF;font-family: Courier, Courier New, Lucida Console, monospace; font-size: 12px; } " // Todo: Remove fixed font-size
-                "td.cmd-request { color: #006060; } "
-                "td.cmd-error { color: red; } "
-                ".secwarning { color: red; }"
-                "b { color: #FFFFFF; } ");
+                "table { color: #767676; }"
+        	"td.time { color: #808080; padding-top: 3px; } "
+        	"td.message { font-family: Courier, Courier New, Lucida Console, monospace; font-size: 12px; } " // Todo: Remove fixed font-size
+       		"td.cmd-request { color: #14C98C; } "
+       		"td.cmd-error { color: #A21163; } "
+        	".secwarning { color: #A21163; }"
+       		"b { color: #14C98C; } ");
     }
     updateStyle(ui->messagesWidget);
 }
