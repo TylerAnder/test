@@ -378,22 +378,6 @@
              </property>
             </widget>
            </item>
-           <item>
-            <widget class="ExpandableButton" name="pushButtonFAQ" native="true">
-             <property name="minimumSize">
-              <size>
-               <width>36</width>
-               <height>36</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>16777215</width>
-               <height>36</height>
-              </size>
-             </property>
-            </widget>
-           </item>
           </layout>
          </item>
         </layout>
@@ -736,15 +720,15 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>ExpandableButton</class>
-   <extends>QWidget</extends>
-   <header>qt/pivx/expandablebutton.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
    <class>PFBorderImage</class>
    <extends>QFrame</extends>
    <header>qt/pivx/pfborderimage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ExpandableButton</class>
+   <extends>QWidget</extends>
+   <header>qt/pivx/expandablebutton.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

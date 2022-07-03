@@ -588,7 +588,7 @@ int PIVXGUI::getNavWidth()
 {
     return this->navMenu->width();
 }
-
+/**
 void PIVXGUI::openFAQ(int section)
 {
     showHide(true);
@@ -597,7 +597,7 @@ void PIVXGUI::openFAQ(int section)
     openDialogWithOpaqueBackgroundFullScreen(dialog, this);
     dialog->deleteLater();
 }
-
+*/
 
 #ifdef ENABLE_WALLET
 bool PIVXGUI::addWallet(const QString& name, WalletModel* walletModel)

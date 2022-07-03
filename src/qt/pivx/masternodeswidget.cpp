@@ -85,8 +85,8 @@ MasterNodesWidget::MasterNodesWidget(PIVXGUI *parent) :
     /* Containers */
     setCssProperty(ui->left, "container");
     ui->left->setContentsMargins(0,20,0,20);
-    setCssProperty(ui->right, "container-right");
-    ui->right->setContentsMargins(20,20,20,20);
+//    setCssProperty(ui->right, "container-right");
+//    ui->right->setContentsMargins(20,20,20,20);
 
     /* Light Font */
     QFont fontLight;
@@ -103,11 +103,11 @@ MasterNodesWidget::MasterNodesWidget(PIVXGUI *parent) :
     setCssBtnPrimary(ui->pushButtonStartMissing);
 
     /* Options */
-    ui->btnAbout->setTitleClassAndText("btn-title-grey", tr("What is a Masternode?"));
+/**    ui->btnAbout->setTitleClassAndText("btn-title-grey", tr("What is a Masternode?"));
     ui->btnAbout->setSubTitleClassAndText("text-subtitle", tr("FAQ explaining what Masternodes are"));
     ui->btnAboutController->setTitleClassAndText("btn-title-grey", tr("What is a Controller?"));
     ui->btnAboutController->setSubTitleClassAndText("text-subtitle", tr("FAQ explaining what is a Masternode Controller"));
-
+*/
     setCssProperty(ui->listMn, "container");
     ui->listMn->setItemDelegate(delegate);
     ui->listMn->setIconSize(QSize(DECORATION_SIZE, DECORATION_SIZE));
@@ -127,8 +127,8 @@ MasterNodesWidget::MasterNodesWidget(PIVXGUI *parent) :
         onStartAllClicked(REQUEST_START_MISSING);
     });
     connect(ui->listMn, &QListView::clicked, this, &MasterNodesWidget::onMNClicked);
-    connect(ui->btnAbout, &OptionButton::clicked, [this](){window->openFAQ(5);});
-    connect(ui->btnAboutController, &OptionButton::clicked, [this](){window->openFAQ(6);});
+//    connect(ui->btnAbout, &OptionButton::clicked, [this](){window->openFAQ(5);});
+//    connect(ui->btnAboutController, &OptionButton::clicked, [this](){window->openFAQ(6);});
 }
 
 void MasterNodesWidget::showEvent(QShowEvent *event)
