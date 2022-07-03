@@ -83,4 +83,4 @@ modden-cli getmasternodestatus
 
 You need to get **"status" : 4** 
 
-## Congratulations your Modden node it's running
+## Congratulations your Modden node is running
