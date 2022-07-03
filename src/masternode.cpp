@@ -333,8 +333,7 @@ CAmount CMasternode::GetMasternodeNodeCollateral(int nHeight)
     if (nHeight >  400000) return     7000 * COIN;
     if (nHeight >  300000) return     5000 * COIN;
     if (nHeight >  200000) return     4000 * COIN;
-//    if (nHeight >  100000) return     3000 * COIN;    // temporary off for test only
-    if (nHeight >  3000) return     3000 * COIN;        // for test only
+    if (nHeight >  100000) return     3000 * COIN;
          
     return 2000 * COIN;
 }
@@ -355,8 +354,7 @@ CAmount CMasternode::GetBlockValue(int nHeight)
     else if (nHeight <= 1000) { 
         nSubsidy = 20 * COIN;
     }
-    else if (nHeight <= 3000) {        // for test only
-//    else if (nHeight <= 100000) {    // temporary off for test only
+    else if (nHeight <= 100000) {
         nSubsidy = 20 * COIN;
     }
     else if (nHeight <= 200000) { 
