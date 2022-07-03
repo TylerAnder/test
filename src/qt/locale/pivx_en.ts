@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="en">
 <context>
@@ -6270,18 +6270,17 @@ Select fewer inputs with coin control.</source>
     </message>
     <message>
         <location line="+89"/>
-        <source>Welcome to
-Modden Wallet</source>
+        <source>Modden Beyond</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+27"/>
-        <source>MDDN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <source>Modden beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - MDDN believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6291,7 +6290,7 @@ Modden Wallet</source>
     </message>
     <message>
         <location line="-103"/>
-        <source>How MDDN respects your privacy?</source>
+        <source>Be inspired by community</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

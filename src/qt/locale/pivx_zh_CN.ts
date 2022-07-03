@@ -1,4 +1,4 @@
-<TS language="zh_CN" version="2.1">
+﻿<TS language="zh_CN" version="2.1">
 <context>
     <name>AddNewAddressDialog</name>
     <message>
@@ -4600,25 +4600,23 @@ backup will be created.
         <translation>选择语言</translation>
     </message>
     <message>
-        <source>Welcome to
-Modden Wallet</source>
-        <translation>欢迎
-Modden心钱包</translation>
+        <source>Modden Beyond</source>
+        <translation>Modden Beyond</translation>
     </message>
     <message>
-        <source>MDDN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>MDDN是世界上最先进的隐私保护技术，由经验丰富的开发人员和密码专家开发。</translation>
+        <source>Modden beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</source>
+        <translation>Modden beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - MDDN believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;正如我们的宣言所说:隐私是一项不容协商的基本人权;它赋予用户随时随地与任何人共享数据的自由——MDDN相信自我主权&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>The masternode network is MDDN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
         <translation>主节点网络是MDDN在区块链之上的第二层网络，它使我们的DAO能够提供去中心的治理。</translation>
     </message>
     <message>
-        <source>How MDDN respects your privacy?</source>
+        <source>Be inspired by community</source>
         <translation>MDDN 到底是怎么尊重你的隐私的？</translation>
     </message>
     <message>

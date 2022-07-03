@@ -1,4 +1,4 @@
-<TS language="ko_KR" version="2.1">
+﻿<TS language="ko_KR" version="2.1">
 <context>
     <name>AddNewAddressDialog</name>
     <message>
@@ -4262,21 +4262,19 @@ NOTE: 업그레이드 이후에는
         <translation>원하시는 언어를 선택하세요.</translation>
     </message>
     <message>
-        <source>Welcome to
-Modden Wallet</source>
-        <translation>환영합니다.
-Modden Wallet</translation>
+        <source>Modden Beyond</source>
+        <translation>Modden Beyond</translation>
     </message>
     <message>
-        <source>MDDN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>MDDN 는 많은 경험과 뛰어난 실력을 겸비한 개발자와 암호학자로 구성된 팀이 개발하는 연신적인 Proof of Stake 블록체인 기술을 자랑하는 오픈소스 프로젝트 입니다. </translation>
+        <source>Modden beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</source>
+        <translation>Modden beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - MDDN believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MDDN 는 Manifesto 선언서에 적힌대로: 프라이버시는 협상이 불가능한 인간의 기본적인 인권중 하나이다. 이로 인해 그 언제나 그 누구에게나 데이터를 공유할수 있는 자유를 얻게 될것이다. MDDN 프로젝트는 개인 독립을 추구한다. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>How MDDN respects your privacy?</source>
+        <source>Be inspired by community</source>
         <translation>MDDN 가 당신의 프라이버시를 존중하는 방법은?</translation>
     </message>
     <message>

@@ -1,4 +1,4 @@
-<TS language="de" version="2.1">
+﻿<TS language="de" version="2.1">
 <context>
     <name>AddNewAddressDialog</name>
     <message>
@@ -4998,24 +4998,23 @@ Wählen Sie weniger Eingänge über coin control aus.</translation>
         <translation>Wählen Sie Ihre Sprache</translation>
     </message>
     <message>
-        <source>Welcome to
-Modden Wallet</source>
-        <translation>Willkommen beim Modden Wallet</translation>
+        <source>Modden Beyond</source>
+        <translation>Modden Beyond</translation>
     </message>
     <message>
-        <source>MDDN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>MDDN ist die innovativste, auf Proof of Stake Blockchain basierende Technologie. Es wurde von einem Team hoch erfahrener Entwickler und Kryptographen entwickelt.</translation>
+        <source>Modden beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</source>
+        <translation>Modden beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - MDDN believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Wie unser Manifestum sagt: Privatsphäre ist ein nicht-verhandelbares Menschenrecht; es garantiert Nuzern die Freiheit ihre Daten wann immer und mit wem auch immer zu teilen - MDDN galubt an diese Souveränität.</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>The masternode network is MDDN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
         <translation>Das Masternode Netzwerk ist MDDN zweite Schicht, die auf der Blockchain aufgesetzt wurde und unserer DAO ermöglicht, dezentrale Steuerung und einen Fiskus ermöglicht.</translation>
     </message>
     <message>
-        <source>How MDDN respects your privacy?</source>
+        <source>Be inspired by community</source>
         <translation>Wie respektiert MDDN meine Privatsphäre?</translation>
     </message>
     <message>
@@ -5211,7 +5210,7 @@ Modden Wallet</source>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Modden is probably already running.</source>
-        <translation>Fehler: Port %s ist bereits belegt! Läuft bereits eine andere Modden Wallet ?</translation>
+        <translation>Fehler: Port %s ist bereits belegt! Läuft bereits eine andere Modden Beyond ?</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>

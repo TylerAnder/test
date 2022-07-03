@@ -1,4 +1,4 @@
-<TS language="es" version="2.1">
+﻿<TS language="es" version="2.1">
 <context>
     <name>AddNewAddressDialog</name>
     <message>
@@ -5035,25 +5035,23 @@ Seleccione menos entradas con control de monedas.</translation>
         <translation>Selecciona tu idioma</translation>
     </message>
     <message>
-        <source>Welcome to
-Modden Wallet</source>
-        <translation>Bienvenido a
-Modden Wallet</translation>
+        <source>Modden Beyond</source>
+        <translation>Modden Beyond</translation>
     </message>
     <message>
-        <source>MDDN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>MDDN es la tecnología blockchain de Prueba de Stake  más avanzada del mundo. Desarrollada por un equipo de desarrolladores y criptógrafos altamente experimentados.</translation>
+        <source>Modden beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</source>
+        <translation>Modden beyond forum is the first cryptocurrency forum with its own blockchain based on PoS.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - MDDN believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Como dice nuestro manifiesto: La privacidad es un derecho humano básico no negociable; concede a los usuarios la libertad de compartir sus datos cuando y con quien quieran - MDDN cree en la auto-soberanía&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>The masternode network is MDDN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
         <translation>La red masternode es la red de segunda capa de MDDN en la parte superior de la blockchain que permite a nuestra DAO proporcionar un gobierno descentralizado y una tesorería.</translation>
     </message>
     <message>
-        <source>How MDDN respects your privacy?</source>
+        <source>Be inspired by community</source>
         <translation>¿Cómo MDDN respeta tu privacidad?</translation>
     </message>
     <message>
