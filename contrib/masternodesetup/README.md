@@ -4,25 +4,27 @@
 ***
 ## Required
 1) **MDDN collateral value at current block** ([consult the collateral table](../../README.md#rewards-breakdown))
-2) **Local Wallet https://github.com/Modden-Project/MDDN/releases**
+2) **Local Wallet https://github.com/ModdenBF/Modden/releases/latest**
 3) **VPS with UBUNTU 18.04** (it is possible to work on other versions but it is not tested)
 4) **Putty https://www.putty.org/**
 5) **Text editor on your local pc to save data for copy/paste**
 ***
 
 ***On your Local Wallet***
-* Create an address with a label MN1 and send exactly the collateral amount to it ([consult the collateral table](../../README.md#rewards-breakdown)). Wait to complete 6 confirmations on “ Payment to yourself “ created.
+* Create an address with a label MN1 and send exactly the collateral amount to it ([consult the collateral table](../../README.md#rewards-breakdown)).
+ Wait to complete 6 confirmations on “ Payment to yourself “ created.
+ Or 15 confirmations if sent from an external wallet.
 
 * Open the Debug Console ( Tools – Debug Console ) and type ***createmasternodekey***.
 You will then receive your private key, save it in a txt to use it later.
   ```
   Example:
           createmasternodekey
-          w8723KqiiqtiLH6y2ktjfwzuSrNucGAbagpmTmCn1KnNEeQTJKf
+          8mTdWPF8Pbc6aTS36W5koLYZWSo5Jby5UJZWCAjDMo7AJYbBwy5
 * Still at Debug Console type ***getmasternodeoutputs*** and save txhash and outputidx on a txt
   ```
   Exemple:
-          "txhash" : "12fce79c1a5623aa5b5830abff1a9feb6a682b75ee9fe22c647725a3gef42saa",
+          "txhash" : "726f3c137b1c567efdbe3bf0b0a061437a8ed52e515e709868d0623b73a31aee",
 		         "outputidx" : 0
 
 ***On Putty***
@@ -48,7 +50,7 @@ Remember to do `modden-cli getblockcount` to check if VPS catching blocks till i
 * Go to your wallet-qt and check peers list (tools - peers list) and select one ip from the list. With that ip do the follow command at VPS `modden-cli addnode "ip" onetry`
 
       Example:
-		  modden-cli addnode 45.32.144.158 onetry
+		  modden-cli addnode 188.68.53.182 onetry
     
 * Check now if VPS already downloading blocks with the command `modden-cli getblockcount`, and if yes give it time now to catch last block number 
 
@@ -61,7 +63,7 @@ Do not close your terminal/ command prompt window at this point.
 **ALIAS VPS_IP**:8668 **masternodeprivkey TXhash Output**
 
 		Example:
-		MN1 125.67.32.10:8668 w8723KqiiqtiLH6y2ktjfwzuSrNucGAbagpmTmCn1KnNEeQTJKf 12fce79c1a5623aa5b5830abff1a9feb6a682b75ee9fe22c647725a3gef42saa 0
+		MN1 149.28.232.213:8668 8mTdWPF8Pbc6aTS36W5koLYZWSo5Jby5UJZWCAjDMo7AJYbBwy5 726f3c137b1c567efdbe3bf0b0a061437a8ed52e515e709868d0623b73a31aee 0
 
 * Close and Re-open Local Wallet, and at Masternode Tab you will find your MN with status MISSING
 
