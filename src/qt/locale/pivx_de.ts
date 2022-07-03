@@ -3511,8 +3511,8 @@ Es gab ein Problem bei dem Versuch die Adressen unter %1 zu speichern. Bitte ver
         <translation>2) Wieso kann ich meine MDDN nicht ausgeben?</translation>
     </message>
     <message>
-        <source>https://moddencoin.net/</source>
-        <translation>https://moddencoin.net/</translation>
+        <source>https://modden.io/</source>
+        <translation>https://modden.io/</translation>
     </message>
     <message>
         <source>1</source>

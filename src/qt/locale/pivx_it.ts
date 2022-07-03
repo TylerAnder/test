@@ -3515,8 +3515,8 @@ Si è verificato un errore nel tentativo di salvare l'elenco degli indirizzi in 
         <translation>2) Perché i miei MDDN non sono spendibili?</translation>
     </message>
     <message>
-        <source>https://moddencoin.net/</source>
-        <translation>https://moddencoin.net/</translation>
+        <source>https://modden.io/</source>
+        <translation>https://modden.io/</translation>
     </message>
     <message>
         <source>1</source>

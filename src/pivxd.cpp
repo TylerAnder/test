@@ -29,7 +29,7 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Modden (https://moddencoin.net/),
+ * This is the developer documentation of the reference client for an experimental new digital currency called Modden (https://modden.io/),
  * which enables instant payments to anyone, anywhere in the world. Modden uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *

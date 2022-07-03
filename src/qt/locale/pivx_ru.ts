@@ -3509,8 +3509,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>2) Почему мои MDDN невозможно потратить?</translation>
     </message>
     <message>
-        <source>https://moddencoin.net/</source>
-        <translation>https://moddencoin.net/</translation>
+        <source>https://modden.io/</source>
+        <translation>https://modden.io/</translation>
     </message>
     <message>
         <source>1</source>

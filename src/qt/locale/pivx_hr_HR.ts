@@ -3441,8 +3441,8 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
         <translation>2) Zašto se moji MDDN ne mogu potrošiti?</translation>
     </message>
     <message>
-        <source>https://moddencoin.net/</source>
-        <translation>https://moddencoin.net/</translation>
+        <source>https://modden.io/</source>
+        <translation>https://modden.io/</translation>
     </message>
     <message>
         <source>1</source>

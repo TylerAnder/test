@@ -3,7 +3,7 @@ Modden Core
 
 Setup
 ---------------------
-[Modden Core](https://moddencoin.net/) is the original Modden client and it builds the backbone of the network. However, it downloads and stores the entire history of Modden transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Modden Core](https://modden.io/) is the original Modden client and it builds the backbone of the network. However, it downloads and stores the entire history of Modden transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -55,7 +55,7 @@ The Modden repo's [root README](/README.md) contains relevant information on the
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [Modden Homepage](https://moddencoin.net/).
+* Discuss on the [Modden Homepage](https://modden.io/).
 * Join the [Modden Discord](https://discord.gg/uTar2Sd).
 
 ### Miscellaneous

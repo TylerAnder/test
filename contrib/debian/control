@@ -28,7 +28,7 @@ Build-Depends: debhelper,
  libzmq3-dev,
  dh-systemd
 Standards-Version: 3.9.2
-Homepage: https://moddencoin.net/
+Homepage: https://modden.io/
 Vcs-Git: git://https://github.com/moddencrypto.git
 Vcs-Browser: https://github.com/moddencrypto
 

@@ -3519,8 +3519,8 @@ There was an error trying to save the address list to %1. Please try again.</tra
         <translation>2) Why are my MDDN unspendable?</translation>
     </message>
     <message>
-        <source>https://moddencoin.net/</source>
-        <translation>https://moddencoin.net/</translation>
+        <source>https://modden.io/</source>
+        <translation>https://modden.io/</translation>
     </message>
     <message>
         <source>1</source>

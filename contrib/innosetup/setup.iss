@@ -3,7 +3,7 @@
 
 #define MyAppName "Modden Core"
 #define MyAppPublisher "2021 DECENOMY Core Developers"
-#define MyAppURL "https://moddencoin.net/"
+#define MyAppURL "https://modden.io/"
 #define MyAppExeName "modden-qt.exe"
 #define MyAppExtraData "https://explorer.decenomy.net/bootstraps/MDDN/bootstrap.zip"
 #define MyAppVersion GetVersionNumbersString(".\package\" + MyAppExeName)

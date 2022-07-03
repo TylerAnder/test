@@ -12,9 +12,9 @@ MDDN wallet repository
 • Prefix: MDDN adresses start with the lower case letter "b"  
 • Ports: 8668 (p2p) / 8669 (rpc)
 
-• Explorer https://explorer.moddencoin.net/
+• Explorer https://explorer.modden.io/
 
-• Website [moddencoin.net](https://moddencoin.net/)
+• Website [modden.io](https://modden.io/)
 
 ### Rewards Breakdown
 
