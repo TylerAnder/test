@@ -4612,12 +4612,12 @@ backup will be created.
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is MDDN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>主节点网络是MDDN在区块链之上的第二层网络，它使我们的DAO能够提供去中心的治理。</translation>
+        <source>Masternodes are part of the infrastructure that sustains Modden coin. They verify new blocks and perform special roles in governing the blockchain.</source>
+        <translation>Masternodes are part of the infrastructure that sustains Modden coin. They verify new blocks and perform special roles in governing the blockchain.</translation>
     </message>
     <message>
         <source>Be inspired by community</source>
-        <translation>MDDN 到底是怎么尊重你的隐私的？</translation>
+        <translation>Be inspired by community</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>

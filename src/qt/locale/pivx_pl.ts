@@ -4484,7 +4484,7 @@ kopia zapasowa zostanie utworzona.
     </message>
     <message>
         <source>Be inspired by community</source>
-        <translation>Jak MDDN szanuje twoją prywatność?</translation>
+        <translation>Be inspired by community</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>

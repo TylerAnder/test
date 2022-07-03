@@ -5063,12 +5063,12 @@ Select fewer inputs with coin control.</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is MDDN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Le réseau masternode est une seconde couche réseau de MDDN au dessus de la blockchain qui permet à notre organisation une gouvernance décentralisée et une trésorerie.</translation>
+        <source>Masternodes are part of the infrastructure that sustains Modden coin. They verify new blocks and perform special roles in governing the blockchain.</source>
+        <translation>Masternodes are part of the infrastructure that sustains Modden coin. They verify new blocks and perform special roles in governing the blockchain.</translation>
     </message>
     <message>
         <source>Be inspired by community</source>
-        <translation>Comment MDDN respecte votre vie privée?</translation>
+        <translation>Be inspired by community</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>

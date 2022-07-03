@@ -4275,7 +4275,7 @@ NOTE: 업그레이드 이후에는
     </message>
     <message>
         <source>Be inspired by community</source>
-        <translation>MDDN 가 당신의 프라이버시를 존중하는 방법은?</translation>
+        <translation>Be inspired by community</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>

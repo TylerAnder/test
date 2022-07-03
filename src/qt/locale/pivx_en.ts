@@ -6285,7 +6285,7 @@ Select fewer inputs with coin control.</source>
     </message>
     <message>
         <location line="+83"/>
-        <source>The masternode network is MDDN&apos;s second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <source>Masternodes are part of the infrastructure that sustains Modden coin. They verify new blocks and perform special roles in governing the blockchain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

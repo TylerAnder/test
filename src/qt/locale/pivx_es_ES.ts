@@ -4723,12 +4723,12 @@ una nueva copia de seguridad.
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Share your opinion, solve your doubts and contribute adding new content while receiving passive income from our Masternodes and Staking.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is MDDN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>La red masternode es la red de segunda capa de MDDN en la parte superior de la blockchain que permite a nuestra DAO proporcionar un gobierno descentralizado y una tesorería.</translation>
+        <source>Masternodes are part of the infrastructure that sustains Modden coin. They verify new blocks and perform special roles in governing the blockchain.</source>
+        <translation>Masternodes are part of the infrastructure that sustains Modden coin. They verify new blocks and perform special roles in governing the blockchain.</translation>
     </message>
     <message>
         <source>Be inspired by community</source>
-        <translation>¿Cómo MDDN respeta tu privacidad?</translation>
+        <translation>Be inspired by community</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
