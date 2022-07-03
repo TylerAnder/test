@@ -225,7 +225,7 @@ void Intro::setStatus(int status, const QString& message, quint64 bytesAvailable
         break;
     case FreespaceChecker::ST_ERROR:
         ui->errorMessage->setText(tr("Error") + ": " + message);
-        ui->errorMessage->setStyleSheet("QLabel { color: #f84444 }");
+        ui->errorMessage->setStyleSheet("QLabel { color: #94115B }");
         break;
     }
     /* Indicate number of bytes available */

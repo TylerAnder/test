@@ -1635,12 +1635,12 @@ HH      DASHBOARD
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 *[cssClass="text-warning"] {
-  color: #f89544;
+  color: #942765;
   font-size: 16px;
 }
 
 *[cssClass="text-warning-small"] {
-  color: #f89544;
+  color: #942765;
   font-size: 14px;
 }
 
@@ -1655,10 +1655,10 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-stake-piv"] {
-  color: #FFD599;
+  color: #15D290;
   font-size: 16px;
   padding: 10px;
-  border-bottom: 5px solid #FFD599;
+  border-bottom: 5px solid #15D290;
 }
 
 *[cssClass="text-stake-piv-disable"] {
@@ -1669,10 +1669,10 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-stake-mnrewards"] {
-  color: #D64C4C;
+  color: #16B0B3;
   font-size: 16px;
   padding: 10px;
-  border-bottom: 5px solid #D64C4C;
+  border-bottom: 5px solid #16B0B3;
 }
 
 *[cssClass="text-stake-mnrewards-disable"] {
@@ -1688,24 +1688,24 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-chart-mnrewards"] {
-  color: #D64C4C;
+  color: #16B0B3;
   font-size: 16px;
   padding-left: 4px;
 }
 
 *[cssClass="text-chart-piv"] {
-  color: #FFD599;
+  color: #15D290;
   font-size: 16px;
   padding-left: 4px;
 }
 
 *[cssClass="square-chart-mnrewards"] {
-  background-color: #D64C4C;
+  background-color: #16B0B3;
   border: none;
 }
 
 *[cssClass="square-chart-piv"] {
-  background-color: #FFD599;
+  background-color: #15D290;
   border: none;
 }
 
