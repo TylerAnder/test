@@ -27,9 +27,9 @@ Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 Source10:	https://raw.githubusercontent.com/pivx-project/pivx/v%{version}/contrib/debian/examples/pivx.conf
 
 #man pages
-Source20:	https://raw.githubusercontent.com/pivx-project/pivx/v%{version}/doc/man/pivxd.1
-Source21:	https://raw.githubusercontent.com/pivx-project/pivx/v%{version}/doc/man/pivx-cli.1
-Source22:	https://raw.githubusercontent.com/pivx-project/pivx/v%{version}/doc/man/pivx-qt.1
+Source20:	https://raw.githubusercontent.com/pivx-project/pivx/v%{version}/doc/man/moddend.1
+Source21:	https://raw.githubusercontent.com/pivx-project/pivx/v%{version}/doc/man/modden-cli.1
+Source22:	https://raw.githubusercontent.com/pivx-project/pivx/v%{version}/doc/man/modden-qt.1
 
 #selinux
 Source30:	https://raw.githubusercontent.com/pivx-project/pivx/v%{version}/contrib/rpm/pivx.te
