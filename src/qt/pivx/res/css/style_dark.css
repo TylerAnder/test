@@ -842,12 +842,12 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-list-amount-receive"] {
-  color: #1e5e37;
+  color: #147B7F;
   font-size: 16px;
 }
 
 *[cssClass="text-list-amount-send"] {
-  color: #c24747;
+  color: #947C87;
   font-size: 16px;
 }
 
@@ -2437,11 +2437,11 @@ QPushButton[cssClass="btn-settings-check"] {
   background-image: url("://ic-arrow-drop-down-white");
   background-position: right center;
   background-repeat: no-repeat;
-  background-color: #0F0F0F;
+  background-color: #161619;
   border: none;
   border-bottom: 1px solid #bababa;
   font-size: 20px;
-  color: #707070;
+  color: #A3A3A3;
   text-align: left;
 }
 
@@ -2449,7 +2449,7 @@ QPushButton[cssClass="btn-settings-check"]:checked {
   background-image: url("://ic-arrow-drop-up-white");
   background-position: right center;
   background-repeat: no-repeat;
-  background-color: #212121;
+  background-color: #0F0F0F;
   border: none;
   font-size: 20px;
   color: #bababa;
@@ -2457,7 +2457,7 @@ QPushButton[cssClass="btn-settings-check"]:checked {
 }
 
 QPushButton[cssClass="btn-settings-options"] {
-  background-color: #0F0F0F;
+  background-color: #161619;
   border: none;
   font-size: 20px;
   color: #bababa;
@@ -2466,7 +2466,7 @@ QPushButton[cssClass="btn-settings-options"] {
 }
 
 QPushButton[cssClass="btn-settings-options"]:checked {
-  background-color: #212121;
+  background-color: #1A1A1D;
   border: none;
   font-size: 20px;
   color: #bababa;
@@ -2475,7 +2475,7 @@ QPushButton[cssClass="btn-settings-options"]:checked {
 }
 
 QPushButton[cssClass="btn-settings-options"]:hover {
-  background-color: #212121;
+  background-color: #1A1A1D;
   border: none;
   font-size: 20px;
   color: #bababa;
@@ -2484,7 +2484,7 @@ QPushButton[cssClass="btn-settings-options"]:hover {
 }
 
 QPushButton[cssClass="btn-settings-options"]:checked:hover {
-  background-color: #212121;
+  background-color: #161619;
   border: none;
   font-size: 20px;
   color: #bababa;
