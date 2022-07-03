@@ -522,8 +522,8 @@ void SettingsConsoleWidget::changeTheme(bool isLightTheme, QString &theme)
         	"td.time { color: #808080; padding-top: 3px; } "
         	"td.message { font-family: Courier, Courier New, Lucida Console, monospace; font-size: 12px; } " // Todo: Remove fixed font-size
        		"td.cmd-request { color: #14C98C; } "
-       		"td.cmd-error { color: #A21163; } "
-        	".secwarning { color: #A21163; }"
+       		"td.cmd-error { color: #A24E7E; } "
+        	".secwarning { color: #A24E7E; }"
        		"b { color: #14C98C; } ");
     } else {
         ui->messagesWidget->document()->setDefaultStyleSheet(
@@ -531,8 +531,8 @@ void SettingsConsoleWidget::changeTheme(bool isLightTheme, QString &theme)
         	"td.time { color: #808080; padding-top: 3px; } "
         	"td.message { font-family: Courier, Courier New, Lucida Console, monospace; font-size: 12px; } " // Todo: Remove fixed font-size
        		"td.cmd-request { color: #14C98C; } "
-       		"td.cmd-error { color: #A21163; } "
-        	".secwarning { color: #A21163; }"
+       		"td.cmd-error { color: #A24E7E; } "
+        	".secwarning { color: #A24E7E; }"
        		"b { color: #14C98C; } ");
     }
     updateStyle(ui->messagesWidget);
