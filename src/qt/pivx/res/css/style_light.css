@@ -924,7 +924,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-main-light"] {
-  color: #b9b9b9;
+  color: #7A7A7A;
   font-size: 17px;
 }
 
@@ -2265,7 +2265,7 @@ HH             SEND
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 *[cssClass="container-coin-type"] {
-  background-color: #ffffff;
+  background-color: transparent;
   border: 1px solid #ececec;
   border-radius: 2px;
 }
@@ -2273,7 +2273,9 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 *[cssClass="coin-icon-piv"] {
   qproperty-icon: url("://ic-coin-piv") off, url("://ic-coin-piv") on;
   qproperty-iconSize: 24px 24px;
-  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
   border: 2px solid #128E92;
   border-radius: 12px;
 }
@@ -2283,7 +2285,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
   qproperty-iconSize: 24px 24px;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #ffffff;
+  background-color: transparent;
   border: 2px solid #128E92;
   border-radius: 12px;
 }
