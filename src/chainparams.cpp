@@ -180,7 +180,7 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "04c7bbc1a9eb80acc54339267764913eaa54a39d23c46aafd4393c69600644ca3520fa7e5fc231666e95c549b2bd5491b7d8638ce46508be060f2f28b94d31a8d5";
+        consensus.strSporkPubKey = "027d96f4ce20d72bcbaaa78447dbc287db7e32ebcfe740c0d3601d79de9ed8a8cb";
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
@@ -312,7 +312,7 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "046b99835df70c4638bde462d07be1bc91432379ba7de3eb5df53044d2a3aa4ba7f7cc9fbe647d4a113071936dc409950bd5b491e017f460633ffbba9ddcdfd248";
+        consensus.strSporkPubKey = "03ef91259425a39d0deba6190caebd9326800e6dbc140a41472bb2663d19680fcc";
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
@@ -437,11 +437,11 @@ public:
         consensus.nTimeSlotLength = 15;
 
         /* Spork Key for RegTest:
-        WIF private key: 76a91448b65ff035ebf61cfc1a561834150a98a99a129488ac
-        private key hex: cQRrV385J2hd7mYjv4mMrsjpuChi18b7YzM13VtTEA63uJ9T8o72
-        Address: TGbg8VSeNejL343TKURRty7qqtVv6XXS4R
+        WIF private key: 
+        private key hex: cRsUdhyMYPrwFj2z3PnhkxcgptPm4PSBj6HJivt8iy4Xwe1Li2gi
+        Address: TXxFB5kDGfkuEkA16yBRDo7DdKvFoxdcL6
         */
-        consensus.strSporkPubKey = "0436364cb6cb35d2af02b07281c2e5434071e887ea77c7aaf8a8d9ef028ba2eef682d1d236fa742962dd679ed081e205d8b521d71c32c73f9400ffcf2b195cc9f6";
+        consensus.strSporkPubKey = "037e975ecd283b55110b1438a2acaa25a72e38e31990a224d5d19dc7b4e436c1e8";
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
