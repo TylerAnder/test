@@ -3,18 +3,42 @@
 
 
 
-Specification:
+Specifications:
 ==================
 
-• PoW Algorithm: X11KVS  
-• Premine: 9,980,000 MDDN
-• PoW Blocks: 1 - 1000  
-• PoS Blocks: Starting from 1001  
-• Block Time: 60 Seconds    
-• Maturity: 100 Confirmations  
+• Name:             Modden
+
+• Ticker:           MDDN
+
+• PoW Algorithm:    X11KVS
+
+• P2P Port:         8668
+
+• RPC Port:         8669
+
+• Block Time:       60 Seconds
+
+• Difficulty Time:  30 blocks
+
+• PoW Blocks:       1 - 1000
+
+---
+
+• PoS Blocks:       Starting from 1001  
+
+• Premine:          9,980,000 MDDN
+
+• Maturity:         100 Confirmations  
+
+• Max Supply:       376,976,310 MDDN
+
+---
+
+• 51% attacks resistant
+
 • Prefix: MDDN adresses start with "M"  
-• Ports: 8668 (p2p) / 8669 (rpc)
-• Max Supply: 376,976,310 MDDN
+
+---
 
 • Explorer [explorer.modden.io](https://explorer.modden.io/)
 
