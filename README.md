@@ -1,9 +1,10 @@
 ![](share/pixmaps/modden_splash.png)
 
-MODDEN
-=====================================
 
-### Techical Specification:
+
+
+Specification:
+==================
 
 • PoW Algorithm: X11KVS  
 • Premine: 9,980,000 MDDN
@@ -19,9 +20,11 @@ MODDEN
 
 • Website [modden.io](https://modden.io/)
 
-### Rewards Breakdown
-
 ---
+
+Rewards
+==================
+
 
 |   Block   | Collateral  | Block Reward   | MN Reward 70% | POS Reward 30% |
 | --------- | ----------- | -------------- | ------------- | -------------- |
