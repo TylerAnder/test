@@ -1,4 +1,4 @@
-MDDN wallet repository
+MODDEN
 =====================================
 
 ### Coin Specs
