@@ -40,9 +40,16 @@ Specifications:
 
 ---
 
-• Explorer [explorer.modden.io](https://explorer.modden.io/)
+Links:
+==================
 
-• Website [modden.io](https://modden.io/)
+• [Explorer](https://explorer.modden.io/)
+
+• [Website](https://modden.io/)
+
+• [Twitter](https://twitter.com/Moddencoin)
+
+• [Discord](https://discord.gg/V5HSbJZ4j7)
 
 ---
 
