@@ -168,7 +168,7 @@ public:
         consensus.nFutureTimeDriftPoW = 7200;
         consensus.nFutureTimeDriftPoS = 180;
         consensus.nMasternodeCountDrift = 20;       // num of MN we allow the see-saw payments to be off by
-        consensus.nMaxMoneyOut = 999999999 * COIN;
+        consensus.nMaxMoneyOut = 376976310 * COIN;
         consensus.nPoolMaxTransactions = 3;
         consensus.nProposalEstablishmentTime = 60 * 60 * 24;    // must be at least a day old to make it into a budget
         consensus.nStakeMinAge = 60 * 60; // 1h
@@ -237,10 +237,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xb6;
-        pchMessageStart[1] = 0xf8;
-        pchMessageStart[2] = 0xe2;
-        pchMessageStart[3] = 0x4d;
+        pchMessageStart[0] = 0xb2;
+        pchMessageStart[1] = 0xf1;
+        pchMessageStart[2] = 0xe0;
+        pchMessageStart[3] = 0xb9;
         nDefaultPort = 8668;
 
         vSeeds.push_back(CDNSSeedData("seed01", "seed01.modden.io"));
