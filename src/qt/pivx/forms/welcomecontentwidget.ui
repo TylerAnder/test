@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>WelcomeContentWidget</class>
  <widget class="QDialog" name="WelcomeContentWidget">
@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string/>
+   <string></string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="spacing">
@@ -30,7 +30,7 @@
     <number>0</number>
    </property>
    <item>
-    <widget class="PFBorderImage" name="frame_2">
+    <widget class="PFBorderImage" name="frame_2" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_1">
       <property name="spacing">
        <number>0</number>
@@ -773,9 +773,6 @@
             </item>
             <item>
              <widget class="QStackedWidget" name="stackedWidget">
-              <property name="currentIndex">
-               <number>4</number>
-              </property>
               <widget class="QWidget" name="page_0">
                <layout class="QVBoxLayout" name="verticalLayout_4">
                 <property name="leftMargin">
@@ -1142,8 +1139,7 @@ Modden Wallet</string>
                 <item>
                  <widget class="QLabel" name="labelMessage4">
                   <property name="text">
-                   <string>Masternodes are part of the infrastructure that sustains Modden coin. They verify new blocks and perform special roles in governing the blockchain.
-</string>
+                   <string>Masternodes are part of the infrastructure that sustains Modden coin. They verify new blocks and perform special roles in governing the blockchain.</string>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignCenter</set>
