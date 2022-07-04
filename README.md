@@ -20,9 +20,9 @@ Specifications:
 
 • Difficulty Time:  30 blocks
 
-• PoW Blocks:       1 - 1000
-
 ---
+
+• PoW Blocks:       1 - 1000
 
 • PoS Blocks:       Starting from 1001  
 
