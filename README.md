@@ -1,7 +1,9 @@
+![](share/pixmaps/modden_splash.png)
+
 MODDEN
 =====================================
 
-### Coin Specs
+### Techical Specification:
 
 • PoW Algorithm: X11KVS  
 • Premine: 9,980,000 MDDN
