@@ -427,8 +427,42 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
     if (!streamConfig.good()) {
         // Create empty modden.conf if it does not exist
         FILE* configFile = fsbridge::fopen(GetConfigFile(), "a");
-        if (configFile != NULL)
+        if (configFile != NULL){
+            std::string strHeader = "# Modden config file\n"
+                          "rpcuser=username\n"
+                          "rpcpassword=password\n"
+                          "server=1\n"
+                          "listen=1\n"
+                          "txindex=1\n"
+                          "daemon=1\n"
+                          "port=8668\n"
+                          "rpcport=8669\n"
+                          "fallbackfee=0.001\n"
+                          "rpcbind=127.0.0.1\n"
+                          "maxconnections=20\n"
+                          "rpcallowip=127.0.0.1\n"
+                          "\n"
+                          "# ADDNODES:\n"
+                          "addnode=seed01.modden.io\n"
+                          "addnode=seed02.modden.io\n"
+                          "addnode=seed03.modden.io\n"
+                          "addnode=seed04.modden.io\n"
+                          "addnode=seed05.modden.io\n"
+                          "addnode=seed06.modden.io\n"
+                          "addnode=seed07.modden.io\n"
+                          "addnode=seed08.modden.io\n"
+                          "addnode=seed09.modden.io\n"
+                          "addnode=seed10.modden.io\n"
+                          "\n"
+                          "# MASTERNODES:\n"
+                          "# masternode=1\n"
+                          "# externalip=\n"
+                          "# masternodeaddr=\n"
+                          "# masternodeprivkey=\n"
+                          "\n";
+            fwrite(strHeader.c_str(), std::strlen(strHeader.c_str()), 1, configFile);
             fclose(configFile);
+        }
         return; // Nothing to read, so just return
     }
 
