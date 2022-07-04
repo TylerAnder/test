@@ -639,7 +639,7 @@
                 <item>
                  <widget class="QLabel" name="labelChart">
                   <property name="text">
-                   <string>Staking statistics</string>
+                   <string/>
                   </property>
                  </widget>
                 </item>
@@ -678,7 +678,7 @@
                 <item>
                  <widget class="QLabel" name="labelPiv">
                   <property name="text">
-                   <string notr="true">MDDN</string>
+                   <string notr="true">STAKING</string>
                   </property>
                  </widget>
                 </item>
@@ -720,9 +720,22 @@
                 <item>
                  <widget class="QLabel" name="labelMNRewards">
                   <property name="text">
-                   <string>MDDN MN</string>
+                   <string>MASTERNODES</string>
                   </property>
                  </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_6">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
                 </item>
                </layout>
               </item>
