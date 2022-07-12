@@ -75,12 +75,18 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (50, uint256S("0x0000082dabae542c8b0d89b1d2983f858523744c98141d579144dee9a7f3e103"))
     (101, uint256S("0x000000accccbb82bba04745607679ee9760a12b8a122a90b0219476152eceb99"))
     (116, uint256S("0x0000030f06b47d740f62503398bbc9f81527cee5b077a90be1be91ec0f50922b"))
-    (200, uint256S("0x0000044a8f22a15898341f1faa0ea7bc5478953dbf86db382fa8c811679fe312"));
+    (200, uint256S("0x0000044a8f22a15898341f1faa0ea7bc5478953dbf86db382fa8c811679fe312"))
+    (500, uint256S("0x0000062c200a9a34a3a165dbdaf3e19c3b7fe565c634b871cbb1980cda69a57a"))
+    (1001, uint256S("0xfed229d2b98541da14d14f845fde4a2b612a2dcb374632e1d2c5642f2dfb69d7"))
+    (1312, uint256S("0x71803a61c73d9265663b8ca9bb8e957557c475459da1b0a41d203b8999edcb08"))
+    (1517, uint256S("0x07716c6e32154f15185e1ba639fabfd857ef04a61e26a0856381f8d67e6b61f0"))
+    (1625, uint256S("0xe1b3194b1429d491d7901a6c6d290d9f535488bf8c0cef05cdc86fd3b9af498b"))
+    (1960, uint256S("0x65383631dc33d313c8612e6ad9287cc1920ef53f1917c41cb1141f16ec76d502"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1656793447, // * UNIX timestamp of last checkpoint block
-    204,          // * total number of transactions between genesis and last checkpoint
+    1657049490, // * UNIX timestamp of last checkpoint block
+    3104,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the UpdateTip debug.log lines)
     1.000        // * estimated number of transactions per day after checkpoint
 };

@@ -36,7 +36,7 @@ wget -q https://raw.githubusercontent.com/ModdenBF/Modden/master/contrib/mastern
 ```
 
 ```
-bash masternodesetup.sh
+chmod +x masternodesetup.sh && bash masternodesetup.sh
 ```
 
 * Let this run, and when it ask you to install dependencies, if you're not sure press ***y*** and then enter
@@ -50,7 +50,17 @@ Remember to do `modden-cli getblockcount` to check if VPS catching blocks till i
 * Go to your wallet-qt and check peers list (tools - peers list) and select one ip from the list. With that ip do the follow command at VPS `modden-cli addnode "ip" onetry`
 
       Example:
-		  modden-cli addnode 188.68.53.182 onetry
+		  modden-cli addnode seed01.modden.io onetry
+		  modden-cli addnode seed02.modden.io onetry
+		  modden-cli addnode seed03.modden.io onetry
+		  modden-cli addnode seed04.modden.io onetry
+		  modden-cli addnode seed05.modden.io onetry
+		  modden-cli addnode seed06.modden.io onetry
+		  modden-cli addnode seed07.modden.io onetry
+		  modden-cli addnode seed08.modden.io onetry
+		  modden-cli addnode seed09.modden.io onetry
+		  modden-cli addnode seed10.modden.io onetry
+
     
 * Check now if VPS already downloading blocks with the command `modden-cli getblockcount`, and if yes give it time now to catch last block number 
 

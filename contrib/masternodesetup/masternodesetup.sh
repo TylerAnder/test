@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.modden'
 COIN_DAEMON='moddend'
 COIN_CLI='modden-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ=`curl -s https://api.github.com/repos/ModdenBF/Modden/releases/latest | grep "browser_download_url.*Linux\\.zip" | cut -d : -f 2,3 | tr -d \" | xargs`
+COIN_TGZ=`curl -s https://api.github.com/repos/ModdenBF/Modden/releases/latest | grep "browser_download_url.*Linux\\.tar.gz" | cut -d : -f 2,3 | tr -d \" | xargs`
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='modden'
 COIN_PORT=8668
@@ -51,7 +51,7 @@ function download_node() {
   echo -e "${GREEN}Downloading and Installing VPS $COIN_NAME Daemon${NC}"
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
-  unzip $COIN_ZIP
+  tar -xvf $COIN_ZIP
   cd rev >/dev/null 2>&1
   chmod +x $COIN_DAEMON $COIN_CLI
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
@@ -145,12 +145,22 @@ function update_config() {
   cat << EOF >> $CONFIGFOLDER/$CONFIG_FILE
 logintimestamps=1
 maxconnections=256
-#bind=$NODEIP
+bind=0.0.0.0
 masternode=1
 externalip=$NODEIP:$COIN_PORT
 masternodeprivkey=$COINKEY
 
-
+# ADDNODES:
+addnode=seed01.modden.io
+addnode=seed02.modden.io
+addnode=seed03.modden.io
+addnode=seed04.modden.io
+addnode=seed05.modden.io
+addnode=seed06.modden.io
+addnode=seed07.modden.io
+addnode=seed08.modden.io
+addnode=seed09.modden.io
+addnode=seed10.modden.io
 
 
 EOF

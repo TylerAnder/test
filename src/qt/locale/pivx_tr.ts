@@ -1,4 +1,4 @@
-﻿<TS language="tr" version="2.1">
+<TS language="tr" version="2.1">
 <context>
     <name>AddNewAddressDialog</name>
     <message>
