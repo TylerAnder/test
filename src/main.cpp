@@ -5052,7 +5052,7 @@ bool static ProcessMessage(CNode* pfrom, std::string strCommand, CDataStream& vR
         if (!pfrom->fInbound) {
             connman.SetServices(pfrom->addr, nServices);
         }
-        if (pfrom->nVersion < MIN_PEER_PROTO_VERSION) {
+        if (pfrom->nVersion.load(), PROTOCOL_VERSION < MIN_PEER_PROTO_VERSION) {
             // disconnect from peers older than this proto version
             LogPrint(BCLog::NET, "peer=%d using obsolete version %i; disconnecting\n", pfrom->GetId(), nVersion);
             pfrom->fDisconnect = true;
