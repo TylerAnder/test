@@ -81,12 +81,18 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (1312, uint256S("0x71803a61c73d9265663b8ca9bb8e957557c475459da1b0a41d203b8999edcb08"))
     (1517, uint256S("0x07716c6e32154f15185e1ba639fabfd857ef04a61e26a0856381f8d67e6b61f0"))
     (1625, uint256S("0xe1b3194b1429d491d7901a6c6d290d9f535488bf8c0cef05cdc86fd3b9af498b"))
-    (1960, uint256S("0x65383631dc33d313c8612e6ad9287cc1920ef53f1917c41cb1141f16ec76d502"));
+    (1960, uint256S("0x65383631dc33d313c8612e6ad9287cc1920ef53f1917c41cb1141f16ec76d502"))
+    (10000, uint256S("0x2516190fcc7e83a998f988336cb82a59be6d0126e6661a7ab91c02b9966236dc"))
+    (20000, uint256S("0xcdb79d04b0201e8e47ab0a3230455e8ca8e199d4a3862d7e9e6c8c07ca992e88"))
+    (30000, uint256S("0xad5e9be70ad1a84f33f6e00aa148adfa273c2fef7400d558ebf139cd91fe0250"))
+    (40000, uint256S("0x409e53528fd5dfac0dbe923d61d75144ff6f6239c429e7db69f9d3aef0a5693a"))
+    (50000, uint256S("0xdb3fa3f2eba899784bbb1ad977da9929dce60f113715cbe7f882ef7b8dc1de14"))
+    (56845, uint256S("0xf999b936434fda6c6323ef47469fd64d8c54faf7fbc32fb621ba91d0c253a52b"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1657049490, // * UNIX timestamp of last checkpoint block
-    3104,          // * total number of transactions between genesis and last checkpoint
+    1660450425, // * UNIX timestamp of last checkpoint block
+    118128,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the UpdateTip debug.log lines)
     1.000        // * estimated number of transactions per day after checkpoint
 };
@@ -196,6 +202,16 @@ public:
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
+
+        // burn addresses
+        consensus.mBurnAddresses = {
+     //       { "XXXXXXXXXXXXXXXXX", 57730 },
+     //       { "XXXXXXXXXXXXXXXXX", 57730 },
+     //       { "XXXXXXXXXXXXXXXXX", 57730 },
+     //       { "XXXXXXXXXXXXXXXXX", 57730 },
+     //       { "XXXXXXXXXXXXXXXXX", 57730 },
+     //       { "XXXXXXXXXXXXXXXXX", 57730 },
+        };
 
         // height-based activations
         consensus.height_last_ZC_AccumCheckpoint    = DISABLED;
