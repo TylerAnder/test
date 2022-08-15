@@ -205,12 +205,8 @@ public:
 
         // burn addresses
         consensus.mBurnAddresses = {
-     //       { "XXXXXXXXXXXXXXXXX", 57730 },
-     //       { "XXXXXXXXXXXXXXXXX", 57730 },
-     //       { "XXXXXXXXXXXXXXXXX", 57730 },
-     //       { "XXXXXXXXXXXXXXXXX", 57730 },
-     //       { "XXXXXXXXXXXXXXXXX", 57730 },
-     //       { "XXXXXXXXXXXXXXXXX", 57730 },
+     //       { "XXXXXXXXXXXXXXXXX", 57727 },
+     //       { "XXXXXXXXXXXXXXXXX", 57727 },
         };
 
         // height-based activations
