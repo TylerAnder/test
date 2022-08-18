@@ -47,7 +47,7 @@ Links:
 
 • [Website](https://modden.io/)
 
-• [Twitter](https://twitter.com/Moddencoin)
+• [Twitter](https://twitter.com/ModdenTech)
 
 • [Discord](https://discord.gg/V5HSbJZ4j7)
 
@@ -59,7 +59,7 @@ Rewards
 
 |   Block   | Collateral  | Block Reward  | MN Reward 70% | POS Reward 30% |
 | --------- | ----------- | ------------- | ------------- | -------------- |
-| 1         | 0           | 9,90,000      | \-            | \-             |
+| 1         | 0           | 9,980,000      | \-            | \-             |
 | 2         | 2,000       | 20            | \-            | \-             |
 | 1,001     | 2,000       | 20            | 14            | 6              |
 | 25,001    | 5,000       | 20            | 14            | 6              |
@@ -76,5 +76,6 @@ Rewards
 | 900,001   | 80,000      | 80            | 56            | 24             |
 | 1,000,001 | 90,000      | 50            | 35            | 15             |
 | 1,100,001 | 100,000     | 20            | 14            | 6              |
+| 1,200,001 | -           | 0             |               |               |
 
 ---
