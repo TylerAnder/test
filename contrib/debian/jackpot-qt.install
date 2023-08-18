@@ -1,6 +1,0 @@
-usr/local/bin/modden-qt usr/bin
-share/pixmaps/modden32.xpm usr/share/pixmaps
-share/pixmaps/modden16.xpm usr/share/pixmaps
-share/pixmaps/modden128.png usr/share/pixmaps
-debian/modden-qt.desktop usr/share/applications
-debian/modden-qt.protocol usr/share/kde4/services/
